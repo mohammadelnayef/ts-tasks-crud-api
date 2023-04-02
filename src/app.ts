@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import api from './routes/api';
 import constants from './utils/constants';
-import {connectDb} from "../database";
+import {connectDb} from "./utils/database";
 
 const app = express();
 
